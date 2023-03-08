@@ -1,0 +1,6 @@
+import 'React' from react
+
+body {
+  background-image: url('/src/images/background.jpg');
+  background-size: cover;
+}
