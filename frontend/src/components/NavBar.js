@@ -1,7 +1,6 @@
 import React from "react";
 import { Nav, NavLink, NavMenu} from "./NavbarElements"
-import "./NavBar.css"
-import Header from '../components/Header'
+
 
 //NavBar component
 const Navbar = () => {
@@ -21,11 +20,6 @@ const textStyle= {
         <NavMenu>
             <div class='link-box'>
                 <NavLink to="/">
-                    Home
-                </NavLink>
-            </div>
-            <div class='link-box'>
-                <NavLink to="/about">
                     About
                 </NavLink>
             </div>
@@ -37,6 +31,11 @@ const textStyle= {
             <div class='link-box'>
                 <NavLink to="/portfolio">
                     Portfolios
+                </NavLink>
+            </div>
+            <div class='link-box'>
+                <NavLink to="/resume">
+                    Resume
                 </NavLink>
             </div>
         </NavMenu>
