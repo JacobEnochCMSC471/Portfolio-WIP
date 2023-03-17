@@ -1,18 +1,36 @@
-#main-container
-{
-    display: flex;
-    flex-grow: 0;
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 1;
+    overflow-x: hidden;
+    padding-top: 2px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: white;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: black;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: static;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered ImageCircles {
     width: 100%;
-}
-
-#left-side
-{
-    display: inline-block;
-    justify-self: flex-start;
-}
-
-#right-side
-{
-    display: inline-block;
-    justify-self: flex-end; 
-}
+    height: auto;;
+  }

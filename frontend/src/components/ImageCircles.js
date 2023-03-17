@@ -1,6 +1,7 @@
 import React from "react";
-import photo1 from "../images/me1.jpg"
+import photo1 from "../images/me1.png"
 import '../components/styles/ImageCircles.css'
+
 
 const ImageCircles= () => {
 

@@ -3,9 +3,14 @@ import './styles.css'
 
 const Portfolio = () => {
   return (
-  <div id='parent'>
-    <h1>Portfolios will be accessed here.</h1>
-    <p> Two portfolios - Metal Benders and Comp Sci stuff. </p>
+    <div id='main-page'>
+      <div class="split left">
+
+      </div> 
+
+      <div class="split right">
+
+      </div>
   </div>
   );
 };

@@ -3,9 +3,14 @@ import './styles.css'
 
 const Resume = () => {
   return (
-  <div id='parent'>
-    <h1>Resume.</h1>
-    <p> Resume. </p>
+    <div id='main-page'>
+      <div class="split left">
+
+      </div> 
+
+      <div class="split right">
+
+      </div>
   </div>
   );
 };

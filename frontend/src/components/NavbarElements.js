@@ -9,10 +9,11 @@ export const Nav = styled.nav`
   padding: 0.2rem calc((100vw - 1000px) / 24);
   z-index: 16;
   margin-left: -30px;
+  }
 `;
 
 export const NavLink = styled(Link)`
-    color: #d52f58;
+    color: white;
     display: flex;
     align-items: center;
     font-family: "Courier New";
@@ -24,6 +25,10 @@ export const NavLink = styled(Link)`
     &.active {
     color: #4d4dff;
   }
+
+  &:hover{
+    background-color: #ddd;
+    color: black;
 `;
 
 

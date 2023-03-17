@@ -1,10 +1,17 @@
 import React from 'react';
-import './styles.css'
+import '../components/styles/about.css'
+
 
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact info (probably just gonna be email tbh)</h1>
+    <div id='main-page'>
+      <div class="split left">
+
+      </div> 
+
+      <div class="split right">
+
+      </div>
     </div>
   );
 };

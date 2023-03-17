@@ -6,12 +6,18 @@ import ImageCircles from "../components/ImageCircles";
 const About = () => {
   return (
     <div id='main-page'>
-      <div id='left-side'>
-        <ImageCircles/>
-      </div>
-      <div id='right-side'>
-        <ImageCircles/>
-      </div>
+      <div class="split left">
+        <div class="centered">
+          <ImageCircles/>
+        </div>
+      </div> 
+
+      <div class="split right">
+        <div class="centered">
+          <ImageCircles/>
+        </div>
+      </div> 
+
     </div>
   );
 };
