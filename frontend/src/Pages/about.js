@@ -1,13 +1,17 @@
 import React from "react";
 import './styles.css'
+import '../components/styles/about.css'
+import ImageCircles from "../components/ImageCircles";
 
 const About = () => {
   return (
-    <div>
-      <h1>
-      Information about who I am, educational/professional background, etc.
-      Also show resume (without personal info)
-      </h1>
+    <div id='main-page'>
+      <div id='left-side'>
+        <ImageCircles/>
+      </div>
+      <div id='right-side'>
+        <ImageCircles/>
+      </div>
     </div>
   );
 };
