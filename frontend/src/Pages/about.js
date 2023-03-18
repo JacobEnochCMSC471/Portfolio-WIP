@@ -1,23 +1,26 @@
 import React from "react";
-import './styles.css'
 import '../components/styles/about.css'
 import ImageCircles from "../components/ImageCircles";
+import { Background } from '../components/Background'
+import ImageCarousel from '../components/ImageCarosel'
 
 const About = () => {
   return (
     <div id='main-page'>
       <div class="split left">
-        <div class="centered">
-          <ImageCircles/>
+        <div id='left-header'>
+          <div class='centered'>
+            <h1> Hello!</h1>
+          </div>
         </div>
-      </div> 
+      </div>
 
       <div class="split right">
-        <div class="centered">
-          <ImageCircles/>
-        </div>
-      </div> 
+      </div>
 
+      <Background>
+
+      </Background>
     </div>
   );
 };

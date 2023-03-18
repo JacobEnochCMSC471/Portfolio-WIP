@@ -1,5 +1,6 @@
 import React from 'react';
 import '../components/styles/about.css'
+import { Background } from '../components/Background'
 
 
 const Contact = () => {
@@ -12,6 +13,10 @@ const Contact = () => {
       <div class="split right">
 
       </div>
+
+      <Background>
+        
+      </Background>
     </div>
   );
 };

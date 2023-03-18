@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.css'
+import { Background } from '../components/Background'
 
 const Resume = () => {
   return (
@@ -11,6 +11,11 @@ const Resume = () => {
       <div class="split right">
 
       </div>
+
+      
+      <Background>
+        
+      </Background>
   </div>
   );
 };

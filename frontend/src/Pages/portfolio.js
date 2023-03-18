@@ -1,5 +1,6 @@
 import React from 'react';
 import './styles.css'
+import { Background } from '../components/Background'
 
 const Portfolio = () => {
   return (
@@ -11,6 +12,11 @@ const Portfolio = () => {
       <div class="split right">
 
       </div>
+
+      
+      <Background>
+        
+      </Background>
   </div>
   );
 };
