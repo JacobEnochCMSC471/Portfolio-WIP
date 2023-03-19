@@ -29,6 +29,12 @@ const Navbar = () => {
                             Resume
                         </NavLink>
                     </div>
+
+                    <div class='link-box'>
+                        <NavLink to={"https://github.com/JacobEnochCMSC471?tab=repositories" } target="_blank">
+                            GitHub
+                        </NavLink>
+                    </div>
                 </NavMenu>
             </Nav>
         </div>

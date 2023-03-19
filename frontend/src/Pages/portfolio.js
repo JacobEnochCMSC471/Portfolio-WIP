@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles.css'
 import { Background } from '../components/Background'
 
 const Portfolio = () => {
