@@ -2,7 +2,8 @@ import React from "react";
 import '../components/styles/about.css'
 import { Background } from '../components/Background'
 import img1 from '../images/me1.png'
-import demoVideo from '../images/Scoreboard Demo v2.mp4'
+import demoVideo1 from '../images/Scoreboard Demo v2.mp4'
+import demoVideo2 from '../images/447 Presentation2-PGIRL.mp4'
 
 const About = () => {
   return (
@@ -14,13 +15,13 @@ const About = () => {
             <p> Welcome to my page. I am a recent Computer Science graduate from the University of Maryland, Baltimore County.</p>
             <p> Here, you'll be able to find things that I've worked on!</p>
             <p> Just a few things that I've worked on can be found below: </p>
-
             <div class="video-container">
               <video width="500" height="500" controls >
-                <source src={demoVideo} type="video/mp4" />
+                <source src={demoVideo1} type="video/mp4" />
               </video>
-              <div class="centered">
-                <p> An Arduino Scoreboard program written in C++.</p>
+              <div class="centered vid2text">
+              <a href="https://github.com/JacobEnochCMSC471/Score-Board-RGB"><p> An Arduino Scoreboard program written in C++. </p> </a>
+              
               </div>
             </div>
           </div>
