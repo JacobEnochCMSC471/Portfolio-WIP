@@ -5,25 +5,27 @@ import img1 from '../images/me1.png'
 import demoVideo1 from '../images/Scoreboard Demo v2.mp4'
 import demoVideo2 from '../images/447 Presentation2-PGIRL.mp4'
 
+
 const About = () => {
   return (
-    <div id='main-page'>
+    <div class='main-page'>
       <div class="split left">
-        <div id='left-header'>
-          <div class='centered'>
+        <div class='left-header'>
+          <div class='centered-text'>
             <h1> Hello!</h1>
-            <p> Welcome to my page. I am a recent Computer Science graduate from the University of Maryland, Baltimore County.</p>
+            <p> Welcome to my page. I am a recent Computer Science graduate from the University of Maryland, Baltimore County. I'm also an aspiring and currently job-seeking software developer.</p>
             <p> Here, you'll be able to find things that I've worked on!</p>
             <p> Just a few things that I've worked on can be found below: </p>
-            <div class="video-container">
-              <video width="500" height="500" controls >
-                <source src={demoVideo1} type="video/mp4" />
-              </video>
-              <div class="centered vid2text">
+            <video controls class="video">
+              <source src={demoVideo1} type="video/mp4" />
+            </video>
+            <div class="vid-text">
               <a href="https://github.com/JacobEnochCMSC471/Score-Board-RGB"><p> An Arduino Scoreboard program written in C++. </p> </a>
-              
-              </div>
             </div>
+            <video controls class="video">
+              <source src={demoVideo2} type="video/mp4" />
+            </video>
+            <p> Testing </p>
           </div>
         </div>
       </div>
@@ -35,9 +37,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <Background>
-
-      </Background>
+      <Background> </Background>
     </div>
   );
 };
