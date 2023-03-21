@@ -9,6 +9,7 @@ import demoVideo2 from '../images/447 Presentation2-PGIRL.mp4'
 const About = () => {
   return (
     <div class='main-page'>
+      <Background>
       <div class="split left">
         <div class='left-header'>
           <div class='centered-text'>
@@ -25,19 +26,19 @@ const About = () => {
             <video controls class="video">
               <source src={demoVideo2} type="video/mp4" />
             </video>
-            <p> Testing </p>
+            <div class="vid-text">
+              <a href="https://github.com/JacobEnochCMSC471/CMSC447-Project-IRL-Pokemon-Go"><p> A Pokemon Go-like webgame made with a 5 person team using Django and Agile methodology. </p> </a>
+            </div>
           </div>
         </div>
       </div>
 
       <div class="split right">
         <div class="centered">
-          <div class="frame">
             <img src={img1} alt="Fancy Jake" id="img1" />
           </div>
         </div>
-      </div>
-      <Background> </Background>
+      </Background>
     </div>
   );
 };
