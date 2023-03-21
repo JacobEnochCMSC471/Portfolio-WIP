@@ -1,22 +1,14 @@
 import React from 'react';
-import '../components/styles/about.css'
+import '../components/styles/contact.css'
 import { Background } from '../components/Background'
-
 
 const Contact = () => {
   return (
-    <div id='main-page'>
-      <div class="split left">
-
-      </div> 
-
-      <div class="split right">
-
-      </div>
-
-      <Background>
+    <div class="main-page">
+      <div class="centered contact">
         
-      </Background>
+      </div>
+      <Background />
     </div>
   );
 };

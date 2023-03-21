@@ -1,5 +1,6 @@
 import React from 'react';
 import { Background } from '../components/Background'
+import '../components/styles/contact.css'
 
 const Resume = () => {
   return (

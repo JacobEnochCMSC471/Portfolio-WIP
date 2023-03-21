@@ -8,7 +8,6 @@ body{
       black 50%,
       black 100%
     );
-
     overflow: hidden;
 
 }
@@ -35,7 +34,7 @@ body{
 
 .centered {
   position: relative;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -65,4 +64,8 @@ img {
 
 #placeholder{
   visibility: hidden;
+}
+
+h1{
+  color: black;
 }
