@@ -3,7 +3,7 @@
     top: 50%;
     left: 50%;
     width: 500px;
-    height: 500px;
+    height: 325px;
     z-index: 5;
     border-width: 5px;
     border-radius: 20px;
@@ -50,9 +50,4 @@
 
   .contact-left-link{
     margin-top: -25px;
-  }
-
-  .contact-text-hidden{
-    visibility: hidden;
-    font-size: 10px;
   }

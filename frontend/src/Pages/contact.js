@@ -41,12 +41,8 @@ const Contact = () => {
             Mourgraine#6691
           </div>
         </div>
-        <div class="contact-text-hidden"> {/*Acts as a spacer between the "Discord Handle" line and <hr> element */}
-          <p> Placeholder </p>
-        </div>
-        <hr id="box-break"/>
         <div class="contact-text">
-          <div class="contact-left-link">
+          <div class="contact-left-linkedin">
               <a href="https://www.linkedin.com/in/jacob-enoch-090b0118b/" class="special-link" target="_blank" rel="noreferrer"><p> LinkedIn </p> </a>
           </div>
         </div>
