@@ -39,6 +39,9 @@ img {
 #img1 {
   max-width: 50%;
   height: auto;
+  border-style: double;
+  border-width: 8px;
+  border-color: whitesmoke;
 }
 
 .video {
