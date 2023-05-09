@@ -1,0 +1,6 @@
+# React Portfolio Website Project
+## Motivation
+I originally began this project to become more familiar with HTML, CSS, React.js and front-end development in general. I worked on a full-stack development project in college but mostly in the backend. My frontend development skills previously were limited to very basic HTML and CSS but I never really got too much exposure to it.
+I also wanted to create something that could showcase both my fabrication skills and coding ability (besides GitHub). 
+
+My role during full-stack project mentioned previously consisted of mostly backend implementation and a general leadership role. I wanted to ensure that the project closely emulated a true software development lifecycle so I became a major source of organization and planning for the group. I also frequently filled in for people who had outages during a sprint, jumping around frequently after my assigned work was completed to ensure that as much work as possible was completed before the iteration/sprint ended. Again, much of this work consisted of mostly backend implementations of accounts, image uploading, etc. The most exposure I had to front-end technologies consisted of the most basic of HTML and CSS (mostly through Bootstrap).

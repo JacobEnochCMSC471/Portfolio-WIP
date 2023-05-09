@@ -1,0 +1,54 @@
+.contact{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 500px;
+    height: 350px;
+    z-index: 5;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style:inset;
+    border-color: grey;
+    background-image: url(contact-box-background.png);
+    background-size: 500px 350px;
+    font-family: andale mono, monospace;
+    color: #4d4dff;
+    /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+  }
+
+  .contact-header {
+    text-decoration: underline;
+  }
+
+  .contact-text {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 125%;
+    margin-top: 25px;
+  }
+
+  .contact-left{
+    text-decoration: underline;
+  }
+
+  .special-link:visited{
+    color: inherit;
+  }
+
+  .special-link:hover{
+    color: blue; 
+  }
+
+  .contact-left-link{
+    margin-top: -25px;
+  }
