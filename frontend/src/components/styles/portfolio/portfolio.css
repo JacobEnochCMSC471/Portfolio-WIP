@@ -1,0 +1,32 @@
+.splitport{
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+    overflow-x: hidden;
+    font-family: andale mono, monospace;
+    font-size: 30px;
+  }
+  
+  /* Control the left side */
+  .leftport {
+    left: 0;
+    z-index: 1;
+  }
+  
+  /* Control the right side */
+  .rightport {
+    right: 0;
+    color: white;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered-port {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
