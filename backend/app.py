@@ -20,6 +20,8 @@ def retrieve_images(image_dir: str) -> list[str]:
 
 
 # API that will retrieve images from a directory and respond to a front-end React request with a list of images
+# Right now it will simply return one image, encoded as Base64
+# Will need to be updated to provide all images in Base64 eventually - small steps!!!!
 @api.route('/img_api', methods=['GET'])
 def image_api():
     images = retrieve_images(mb_photos_dir)
