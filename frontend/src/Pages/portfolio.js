@@ -7,13 +7,13 @@ const Portfolio = () => {
     <div id='main-page-portfolio'>
       <div class="splitport leftport">
         <div class="centered">
-          <a href="/MetalBenders" id='metalbenders'> Metal Benders LLC Projects </a>
+          <a href="/portfolio/metalbenders" id='metalbenders'> Metal Benders LLC Projects </a>
         </div>
       </div>
 
       <div class="splitport rightport">
         <div class="centered">
-          <a href="/csprojects" id = "csproj"> Programming Projects </a>
+          <a href="/portfolio/csprojects" id = "csproj"> Programming Projects </a>
         </div>
       </div>
       <Background />

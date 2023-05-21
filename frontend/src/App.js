@@ -17,8 +17,8 @@ return (
           <Route exact path='/contact' element={<Contact/>} />
           <Route exact path='/portfolio' element={<Portfolio/>} />
           <Route exact path='/resume' element={<Resume/>} />
-          <Route exact path = '/MetalBenders' element = {<MetalBenders/>}/>
-          <Route exact path = '/CsProjects' element = {<CsProjects/>}/> 
+          <Route exact path = '/portfolio/metalbenders' element = {<MetalBenders/>}/>
+          <Route exact path = '/portfolio/csprojects' element = {<CsProjects/>}/> 
       </Routes>
       </Router>
 );
